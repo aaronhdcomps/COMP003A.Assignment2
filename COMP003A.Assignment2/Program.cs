@@ -11,12 +11,13 @@ namespace COMP003A.Assignment2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("**************************************************");
-            Console.WriteLine("Console Section");
-            Console.WriteLine("**************************************************");
+            Console.Clear();
             Console.Title = "COMP-003A - Assignment 2";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("**************************************************");
+            Console.WriteLine("Console Section");
+            Console.WriteLine("**************************************************");
             Console.WriteLine("\n");
             Console.WriteLine("**************************************************");
             Console.WriteLine("String Section                                    ");
