@@ -63,7 +63,7 @@ namespace COMP003A.Assignment2
             double area = Math.PI * Math.Pow(radius, 2);
             double circumference = 2 * Math.PI * radius;
             Console.WriteLine($"The area is {area}");
-            Console.WriteLine($"The area is {circumference}");
+            Console.WriteLine($"The circumference is {circumference}");
             //---------------------------------------------------------------------
         }
     }
