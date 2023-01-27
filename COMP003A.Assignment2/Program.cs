@@ -36,6 +36,14 @@ namespace COMP003A.Assignment2
             Console.WriteLine("**************************************************");
             Console.WriteLine("Math Section                                      ");
             Console.WriteLine("**************************************************");
+            Console.Write("Enter an integer for integer1: ");
+            string inputInteger1 = Console.ReadLine();
+            int integer1 = Convert.ToInt32(inputInteger1);
+            Console.Write("Enter an integer for integer2: ");
+            string inputInteger2 = Console.ReadLine();
+            int integer2 = Convert.ToInt32(inputInteger2);
+            Console.WriteLine($"{integer1} + {integer2} = {integer1 + integer2}");
+
         }
     }
 }
